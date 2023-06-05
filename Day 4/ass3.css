@@ -1,0 +1,132 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    /* color:rgb(203, 203, 203); */
+}
+body{
+    margin-top:4rem;
+    background-image:linear-gradient(135deg,rgb(242, 206, 139),rgb(255, 249, 192),rgb(242, 206, 139));
+    background-attachment: fixed;
+}
+#showmenu{
+    margin:6rem 2rem;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:2rem;
+}
+#showmenu img{
+    width: 100%;
+    border-radius: 1rem;
+    height: 22rem; 
+    object-fit:cover;
+}
+.container{
+    background-color: rgb(255, 211, 123);
+    box-shadow:inset rgb(105, 62, 0) 0px 0px 10px;
+    border-radius: 1rem;
+    padding:1.5rem;
+}
+.nav{
+    background:rgba(253, 207, 128, 0.8);
+    box-shadow:rgba(0, 0, 0, 0.6) 0px 6px 6px;
+    display:flex;
+    position:fixed;
+    width:100%;
+    margin-top:-6rem;
+    /* padding:1rem; */
+}
+/* .navblur{
+    backdrop-filter:blur(5px);
+} */
+.item1,.item2,.item3,.item4,.item4{
+    padding:1rem 3rem;
+}
+.item5{
+    color:black;
+    padding:1rem 2.5rem;
+}
+.item1:hover{
+    cursor:pointer;
+    font-size:20px;
+    padding:1rem 2.66rem;
+    text-shadow:white 0px 0px 30px;
+}
+.item2:hover{
+    cursor:pointer;
+    font-size:20px;
+    padding:1rem 2.55rem;
+    text-shadow:white 0px 0px 30px;
+
+}
+.item3:hover{
+    cursor:pointer;
+    font-size:20px;
+    padding:1rem 2.6rem;
+    text-shadow:white 0px 0px 30px;
+
+}
+.item4:hover{
+    cursor:pointer;
+    font-size:20px;
+    padding:1rem 2.65rem;
+    text-shadow:white 0px 0px 30px;
+
+}
+.item5:hover{
+    cursor:pointer;
+    font-size:20px;
+    padding:1rem 1.6rem;
+    margin-left:1rem;
+    text-shadow:white 0px 0px 30px;
+    /* text-decoration: none; */
+
+}
+.search{
+    /* float:right; */
+    font-size: 20px;
+    margin-left:38rem;
+    padding:1rem;
+}
+.search:hover{
+    cursor:pointer;
+    text-shadow:white 0px 0px 30px;
+
+}
+h3{
+    text-align:center;
+}
+
+#brand{
+    /* background:rgba(0, 0, 0,0.8); */
+    margin-top:1rem;
+    margin-left:0rem;
+ 
+    font-weight:bold;
+   
+}
+#brand:hover{
+    cursor:pointer;
+}
+button{
+    padding:1rem 0.35rem;
+    margin-top:1rem;
+    border:0;
+    border-radius:0.8rem;
+    width:46%;
+    background-color:rgba(162, 76, 0, 0.9);
+
+    color:white;
+    box-shadow:inset rgb(66, 39, 0) 0px 0px 8px;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color:rgb(255, 119, 0);
+
+}
+p
+{
+    margin:0.8rem 0.8rem;
+
+}

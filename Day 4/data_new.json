@@ -1,0 +1,89 @@
+{
+  "mydata": [
+    {
+      "id": 1685639474422,
+      "name": "QWERTYUIO",
+      "email": "QWERTYUI",
+      "mobile": "123456",
+      "password": "123456"
+    },
+    {
+      "id": 1685640616794,
+      "name": "qwerty",
+      "email": "awerth",
+      "mobile": "1234567",
+      "password": "234567"
+    },
+    {
+      "id": 1685640655434,
+      "name": "dfghjk",
+      "email": "xcvbnmn",
+      "mobile": "345678",
+      "password": "sdfghjk"
+    },
+    {
+      "id": 1685640677702,
+      "name": "asdfghjk",
+      "email": "asdfghjk",
+      "mobile": "12345678",
+      "password": "234567ui"
+    },
+    {
+      "id": 1685640735477,
+      "name": "sdfghj",
+      "email": "sdfghj",
+      "mobile": "1234567",
+      "password": "34567ui"
+    },
+    {
+      "id": 1685640798540,
+      "name": "asdfghj",
+      "email": "qwerghj",
+      "mobile": "1234567",
+      "password": "1234567"
+    },
+    {
+      "id": 1685640934976,
+      "name": "sanskar",
+      "email": "sanskar.com",
+      "mobile": "9999",
+      "password": "1111"
+    }
+  ],
+  "food": [
+   
+    {
+      "image": "https://p1.pxfuel.com/preview/1020/750/558/tandoori-chicken-curry-cooking-food-taste.jpg",
+      "title": "Tandoori chicken",
+      "ingredients": "1. Chicken\n2. Yogurt\n3. Lemon juice\n4. Ginger-garlic paste\n5. Tandoori Masala\n6. Red chili powder",
+      "id": 6
+    },
+    {
+      "image": "https://e1.pxfuel.com/desktop-wallpaper/816/583/desktop-wallpaper-tasty-pizza-from-the-oven-good-oven.jpg",
+      "title": "Pizza",
+      "ingredients":"1. Pizza dough\n2. Pizza sauce\n3. Mozzarella cheese\n4. Toppings\n5. Seasonings\n6. Olive oil",
+      "id": 7
+  },
+  {
+      "image": "https://e0.pxfuel.com/wallpapers/656/834/desktop-wallpaper-craving-biryani-head-over-to-these-delectable-spots-in-mumbai-biriyani.jpg",
+      "title": "Biriyani",
+      "ingredients":"",
+      "id": 8
+  },
+  
+  
+  {
+      "image": "https://e0.pxfuel.com/wallpapers/519/824/desktop-wallpaper-burger-steak-fire-fast-food-pepper-food-junk-food.jpg",
+      "title": "Burger",
+      "ingredients":"",
+      "id": 9
+  },
+  {
+      "image": "https://static.vecteezy.com/system/resources/previews/022/012/618/large_2x/delicious-tacos-fast-food-on-a-dark-background-generative-ai-free-photo.jpg",
+      "title": "Tacos",
+      "ingredients": "1. Tortillas\n2. Chicken, or pork\n3. Chopped lettuce\n4. Diced tomatoes\n5. Chopped onions\n6. Shredded cheese",
+      "id": 10
+  }
+
+  ]
+}

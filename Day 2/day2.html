@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2</title>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact us</li>
+
+        </ul>
+    </div>
+    
+    <ul id="login">
+        <li><button id="user">Login</button></li>
+    </ul>
+    <!-- <div class="login"><button>Login</button></div> -->
+    </div>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <button id="view_para">Show paragraph</button>
+            <button id="remove_para">Remove paragraph</button>
+           <br>
+
+            <button id="view_pic">View image</button>
+            <button id="remove_pic">Remove image</button>
+
+            <div id="show_pic">
+                <img src="" alt="">
+            </div>
+
+        </div>
+        <div class="table">
+            <div id="show_para">
+                <p id="para"></p>
+            </div>
+
+            <button id="insert_table">Insert to table</button>
+            <button id="remove_table">Remove from table</button>
+            <table>
+                <tr>
+                    <th>S No</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                </tr>
+                <tbody>
+                </tbody>
+            </table>
+
+            </table>
+
+        </div>
+    </div>
+</body>
+<style>
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        background-image: linear-gradient(135deg, rgb(8, 49, 77), rgb(58, 192, 217), rgb(8, 49, 77));
+        background-attachment: fixed;
+        height: 100%;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        position: fixed;
+        background-color: rgb(0, 25, 62);
+        color: white;
+        justify-content: left;
+        width: 80%;
+        z-index: 1;
+        top: 0;
+    }
+#login{
+    margin-left:80%;
+}
+#user{
+    padding:0.5rem 1rem;
+    margin:0.15rem 0.15rem 0.15rem 14rem;
+    background-image: linear-gradient(135deg,rgb(103, 168, 196),rgb(139, 216, 249),rgb(77, 155, 188));
+    
+}
+    .nav li:hover {
+        background-image: linear-gradient(135deg,rgb(103, 168, 196),rgb(139, 216, 249),rgb(77, 155, 188));
+        box-shadow: inset rgb(0, 32, 1) 0px 0px 6px;
+        color:black;
+        border-radius: 0.1rem;
+        cursor: pointer;
+    }
+
+    .container {
+        display: flex;
+    }
+p{
+    height:17rem;
+}
+    .image,
+    .table {
+        flex: 50%;
+    }
+
+    img {
+        /* margin-left: 2rem 2rem; */
+        border-radius: 0.4rem;
+        box-shadow:2px 2px 4px;
+
+    }
+
+    .nav li {
+        padding: 10px;
+    }
+
+   
+
+    /* #user {
+        background-color: rgb(0, 148, 12);
+        box-shadow: inset rgb(0, 32, 1) 0px 0px 6px;
+        border: 0px;
+        color: white;
+        margin-right: 1rem;
+        margin-top: 0.1rem;
+        border-radius: 0.8rem;
+        padding: 0.35rem 1.4rem;
+        font-size: 20px;
+    } */
+#view_para{
+    margin:10rem 2rem 2rem 10.5rem;
+}
+#view_pic{
+    margin:4rem 2rem 2rem 10.5rem;
+}
+#insert_table{
+    margin:2rem 2rem 2rem 10.5rem;
+}
+#view_para,#remove_para,#view_pic,#remove_pic,#insert_table,#remove_table{
+    padding:0.5rem;
+    width:10rem;
+    background-image: linear-gradient(135deg,rgb(103, 168, 196),rgb(139, 216, 249),rgb(77, 155, 188));
+}
+    #user:hover {
+        background-color: rgb(211, 127, 0);
+        cursor: pointer;
+    }
+
+    th {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 90%;
+        /* height:20rem; */
+        margin: 2rem;
+        /* border: 5px solid #000000; */
+        font-size: 18px;
+        margin-left: 2rem;
+        box-shadow: rgb(0, 0, 0) 3px 3px 8px;
+        border-radius: 0.3rem;
+        text-align: center;
+
+    }
+
+    td,
+    th {
+        border: 2;
+        padding: 0.5rem 1rem;
+        box-shadow: rgb(29, 29, 29)0px 0px 3px 3px;
+        border-radius: 0.3rem;
+    }
+
+    h4 {
+        margin-top: -5rem;
+        margin-left: 4rem;
+        color: aliceblue;
+    }
+</style>
+<script src="day2.js"></script>
+
+</html>
+
+<!-- sticky:stick to one place
+fixed:stick to one place but by gicing left right and top bottom -->

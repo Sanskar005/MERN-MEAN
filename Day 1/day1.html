@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact us</li>
+    </ul>
+</head>
+
+<body>
+
+<script src="day1.js"></script>
+    <!-- <pre> -->
+    <h1>Hello <span id="name">Sanskar</span></h1>
+    <!-- </pre> -->
+    <!-- <h1>Hello       Sanskar</h1> -->
+    <div class="box">
+        <div class="part1">
+            <div class="form-box">
+            <form>
+            <div id="label"><label>Name</label></div><div><input type="text" placeholder="Enter your name"></div>
+            <div id="label"><label>ID</label></div><div><input type="text" placeholder="Enter your ID"></div>
+            <div id="label"><label>Password</label></div><div><input type="text" placeholder="Enter your password"></div>
+            <div><a href="https://google.com"><button id="btn">Click</button></a></div>
+        </div>
+        </form>
+        </div>
+        <br>
+        <!-- <pre> -->
+        <div class="part2">
+    <img src="https://c4.wallpaperflare.com/wallpaper/414/668/941/for-desktop-nature-scenes-beautiful-scenery-1920x1080-wallpaper-preview.jpg"
+        alt="error">
+    </div>
+    <!-- </pre> -->
+    </div>
+
+    <div class="grid1">
+        <div class="a1">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum eos velit inventore sapiente numquam enim
+            officia, molestiae ullam quisquam iure?
+        </div>
+        <div class="a2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum eos velit inventore sapiente numquam enim
+            officia, molestiae ullam quisquam iure?
+        </div>
+        <div class="a3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum eos velit inventore sapiente numquam enim
+            officia, molestiae ullam quisquam iure?
+        </div>
+        <div class="a4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum eos velit inventore sapiente numquam enim
+            officia, molestiae ullam quisquam iure?
+        </div>
+    </div>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    html{
+        background-color: rgba(0, 191, 255, 0.37);
+    }
+#name{
+    color:rgb(255, 238, 0);
+}
+    .box {
+        display: flex;
+    }
+
+    h1 {
+
+        background-color: rgba(137, 43, 226, 0.503);
+        text-shadow: black 0.5px 0.5px 1px;
+    }
+
+    #btn {
+        background-color: #9589f0;
+        color: beige;
+        padding:0.6rem 1rem;
+        margin: 2rem;
+        border-radius: 0.8rem;
+    }
+
+    ul {
+        padding: 1rem;
+        color: beige;
+        background-color: rgb(0, 3, 52);
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        font-size: large;
+    }
+
+    .part1,.part2 {
+        flex: 50%;
+    }
+
+    img {
+        margin: 2rem;
+        height: 25rem;
+        width:40rem;
+        border-radius: 2rem;
+        box-shadow: black 2px 2px 6px ;
+
+    }
+    .grid1{
+        display:grid;   
+        margin:5rem;
+        grid-template-columns: 10fr 10fr 10fr;
+        /* grid-template-areas:"a1 a2 a3" "a4 ."; */
+  grid-gap:1rem;
+    
+    }
+    .a1,.a2,.a3,.a4{
+        padding:2rem;
+        /* margin:1rem; */
+        background-color:rgb(80, 173, 255);
+        border-radius:1rem;
+        box-shadow: inset black  0px 0px 10px;
+        /* box-shadow:  black  2px 2px 4px; */
+        
+    }
+    form{
+       margin:2rem;
+       padding-top:2rem;
+       text-align: center;
+    }
+    .form-box{
+        margin:5rem;
+        background-image:linear-gradient(135deg,rgb(0, 255, 195),aqua,rgb(0, 255, 195));
+        border-radius: 2rem;
+        box-shadow: black 2px 2px 6px ;
+    }
+    #label{
+        padding-top:1rem;
+    }
+</style>
+
+</html>
+
+
+<!-- grid,flex,specify content,reverse list -->
