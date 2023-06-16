@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* .nav{
+  position:fixed;
+  padding:1rem 0.5rem;
+} */
+.nav{
+  /* height:55px; */
+  position:fixed;
+  background-color:#282c34;
+  width:100%;
+  margin-top:-5rem;
+}
+.search{
+  margin-top:0rem;
+  padding:0.7rem;
+}
+.no-data {
+  text-align: center;
+  color: #888;
+  width:200vh;
+}
+.pagination{
+  margin-bottom:2rem;
+}
+.registration-form{
+  display:grid;
+  /* padding-top:5rem; */
+  padding:1rem;
+  background-image: linear-gradient(grey,rgba(99, 99, 99, 0.24));
+  margin:5rem 25rem;
+}
+.registration-form input{
+  width:80%;
+  padding:0.5rem;
+  margin:0.4rem auto;
+
+}
+#submit{
+  width:51%;
+margin:1rem auto;
+}
