@@ -1,0 +1,38 @@
+.nav {
+  /* font-size: 20px; */
+  width:100%;
+  /* color: rgb(255, 255, 255); */
+  background-color: #2874f0;
+  height:55px;
+  color:white;
+  display: flex;
+  /* justify-content: space-around; */
+  position:fixed;
+  top:0;
+}
+.items{
+  font-weight:600;
+  margin-top:-0.9rem;
+  font-size: 16px;
+  /* font-family:Arial, Helvetica, sans-serif; */
+  padding:2rem;
+}
+.elements{
+  margin-left:3.5rem;
+  display:flex;
+}
+input{
+  margin:0.5rem;
+  margin-left:.5rem;
+  width:550px;
+  height:25px;
+  padding:5px;
+}
+
+.logo{
+  object-fit:cover;
+  width:80px;
+  /* zoom:110%; */
+  height:55px;
+  padding-left:12.5rem;
+}
